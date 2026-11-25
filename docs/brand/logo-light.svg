@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 144" width="760" height="144" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="8" y1="4" x2="56" y2="60" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#18181F"/>
+      <stop offset="100%" stop-color="#09090B"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="32" cy="14" r="38" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.26"/>
+      <stop offset="60%" stop-color="#34D399" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#09090B" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="border" x1="4" y1="4" x2="60" y2="60" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0F172A" stop-opacity="0.25"/>
+      <stop offset="50%" stop-color="#0284C7" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#059669" stop-opacity="0.35"/>
+    </linearGradient>
+    <linearGradient id="wave" x1="15" y1="22" x2="49" y2="46" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="52%" stop-color="#818CF8"/>
+      <stop offset="100%" stop-color="#34D399"/>
+    </linearGradient>
+    <linearGradient id="accentTextLight" x1="436" y1="50" x2="545" y2="85" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0284C7"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Emblem Mark -->
+  <g transform="translate(64, 24) scale(1.5)">
+    <rect x="2" y="2" width="60" height="60" rx="15" fill="url(#bg)"/>
+    <rect x="2" y="2" width="60" height="60" rx="15" fill="url(#glow)"/>
+    <rect x="2.75" y="2.75" width="58.5" height="58.5" rx="14.25" stroke="url(#border)" stroke-width="1.5"/>
+    <circle cx="32" cy="34" r="20" stroke="#38BDF8" stroke-opacity="0.10" stroke-width="1"/>
+    <path d="M16.5 46V27.5C16.5 24.4 20.2 22.9 22.4 25.1L32 34.8L41.6 25.1C43.8 22.9 47.5 24.4 47.5 27.5V46" stroke="url(#wave)" stroke-width="5.2" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="21.5" cy="18.2" r="2.4" fill="#38BDF8" fill-opacity="0.9"/>
+    <circle cx="42.5" cy="18.2" r="2.4" fill="#34D399" fill-opacity="0.9"/>
+    <circle cx="32" cy="15.4" r="5.6" fill="#38BDF8" fill-opacity="0.18"/>
+    <circle cx="32" cy="15.4" r="3.2" fill="#F8FAFC"/>
+  </g>
+
+  <!-- Primary Wordmark -->
+  <text x="184" y="76" fill="#09090B" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Inter', 'Segoe UI', system-ui, sans-serif" font-size="48" font-weight="700" letter-spacing="-1.4">Mardom</text>
+
+  <!-- Hairline Divider + Persian Name -->
+  <line x1="414" y1="38" x2="414" y2="82" stroke="#09090B" stroke-opacity="0.16" stroke-width="1.5"/>
+  <text x="438" y="75" fill="url(#accentTextLight)" font-family="'Vazirmatn', 'SF Arabic', 'Tahoma', system-ui, sans-serif" font-size="38" font-weight="700">مردم</text>
+
+  <!-- Crisp Tagline -->
+  <text x="186" y="106" fill="#52525B" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Inter', 'Segoe UI', system-ui, sans-serif" font-size="13.5" font-weight="500" letter-spacing="0.9">1,000 IRANIAN PERSONAS  ·  SYNTHETIC CROWD AD LAB</text>
+</svg>

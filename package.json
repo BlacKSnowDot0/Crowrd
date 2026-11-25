@@ -1,0 +1,37 @@
+{
+  "name": "mardom-crowd",
+  "version": "1.0.0",
+  "description": "Open-source Persian synthetic audience & evolutionary ad-testing lab powered by 1,000 Iranian buyer personas, behavioral decision physics, and adversarial copy evolution.",
+  "license": "MIT",
+  "keywords": [
+    "synthetic-audience",
+    "ai-simulation",
+    "evolutionary-optimization",
+    "persian",
+    "iran",
+    "ad-testing",
+    "nextjs",
+    "deepseek",
+    "perplexity"
+  ],
+  "scripts": {
+    "dev": "next dev -H 0.0.0.0 -p 3000",
+    "build": "next build",
+    "start": "next start -H 0.0.0.0 -p 3000",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "lucide-react": "^0.511.0",
+    "next": "^15.3.2",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.7",
+    "@types/node": "^22.15.21",
+    "@types/react": "^19.1.5",
+    "@types/react-dom": "^19.1.5",
+    "tailwindcss": "^4.1.7",
+    "typescript": "^5.8.3"
+  }
+}

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="8" y1="4" x2="56" y2="60" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#18181F"/>
+      <stop offset="100%" stop-color="#09090B"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="32" cy="14" r="36" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.22"/>
+      <stop offset="55%" stop-color="#34D399" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#09090B" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="border" x1="4" y1="4" x2="60" y2="60" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.22"/>
+      <stop offset="45%" stop-color="#38BDF8" stop-opacity="0.38"/>
+      <stop offset="100%" stop-color="#34D399" stop-opacity="0.28"/>
+    </linearGradient>
+    <linearGradient id="wave" x1="15" y1="22" x2="49" y2="46" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="52%" stop-color="#818CF8"/>
+      <stop offset="100%" stop-color="#34D399"/>
+    </linearGradient>
+    <linearGradient id="waveHi" x1="16" y1="23" x2="48" y2="23" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#7DD3FC"/>
+      <stop offset="100%" stop-color="#6EE7B7"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="60" height="60" rx="15" fill="url(#bg)"/>
+  <rect x="2" y="2" width="60" height="60" rx="15" fill="url(#glow)"/>
+  <rect x="2.75" y="2.75" width="58.5" height="58.5" rx="14.25" stroke="url(#border)" stroke-width="1.5"/>
+  <circle cx="32" cy="34" r="20" stroke="#38BDF8" stroke-opacity="0.09" stroke-width="1"/>
+  <path d="M16.5 46V27.5C16.5 24.4 20.2 22.9 22.4 25.1L32 34.8L41.6 25.1C43.8 22.9 47.5 24.4 47.5 27.5V46" stroke="url(#wave)" stroke-width="5.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M16.5 46V27.5C16.5 24.4 20.2 22.9 22.4 25.1L32 34.8L41.6 25.1C43.8 22.9 47.5 24.4 47.5 27.5V46" stroke="url(#waveHi)" stroke-opacity="0.35" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="21.5" cy="18.2" r="2.4" fill="#38BDF8" fill-opacity="0.88"/>
+  <circle cx="42.5" cy="18.2" r="2.4" fill="#34D399" fill-opacity="0.88"/>
+  <circle cx="32" cy="15.4" r="5.6" fill="#38BDF8" fill-opacity="0.16"/>
+  <circle cx="32" cy="15.4" r="3.2" fill="#F8FAFC"/>
+</svg>

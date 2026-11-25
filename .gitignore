@@ -1,0 +1,29 @@
+# Dependencies & build output
+node_modules/
+.next/
+out/
+tsconfig.tsbuildinfo
+next-env.d.ts
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+
+# Editor / agent local state
+.opencode/
+.DS_Store
+*.log
+
+# Python artifacts
+__pycache__/
+*.pyc
+.venv/
+
+# Generated experiment & local run outputs (keep curated sample_*.json runs!)
+experiments/results/
+data/runs/run_*.json
+data/iran_crowd_before.json
+data/iran_crowd_raw_1000.json
+data/optimize_crowd_report.json
+data/scale_crowd_stats.json
